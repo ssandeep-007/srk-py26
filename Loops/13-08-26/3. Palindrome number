@@ -1,0 +1,7 @@
+WAP to check if a number is palindrome.
+
+i/p: 121
+o/p: Palindrome
+
+i/p: 765
+o/p: not palindrome
