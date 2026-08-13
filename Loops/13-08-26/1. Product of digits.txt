@@ -1,0 +1,7 @@
+WAP to find the product of digits of a number.
+
+i/p: 1234
+o/p: 24
+
+i/p: 564
+o/p: 120
