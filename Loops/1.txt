@@ -1,0 +1,17 @@
+Remove chars from odd indices
+----------------------------------------------------------
+
+WAP to read a string from user, and implement the logic to 
+remove the characters which are in the odd numbers of the 
+index. 
+Testcase 1: 
+Enter String 
+abcdefgh 
+Original String:  abcdefgh 
+After Elimination: aceg 
+
+Testcase2: 
+Enter String 
+Python 
+Original String:  Python 
+After Elimination Pto 
