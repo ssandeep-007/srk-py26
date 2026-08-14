@@ -1,0 +1,10 @@
+Find Duplicate Elements
+
+Given a list, print all elements that appear more than once.
+
+I/p:
+[10, 20, 30, 20, 40, 10, 50, 20]
+
+O/p:
+10
+20
