@@ -1,0 +1,21 @@
+Find the first duplicate:
+-----------------------------------
+Sam created a program to read elements into a list randomly.  
+The program may also read duplicates values into the list object.  
+Sam wants to find the first occurrence of the duplicate in the list. 
+For an instance if the list is like [12 33 44 33 44 55] then the first duplicate element is 33. 
+Help Sam to get the logic to find the first occurrence of the duplicate in the given list. 
+
+TestCase 1 
+Enter size to store elements 
+6  
+12 33 44 33 44 55 
+output 
+33 
+
+TestCase 2 
+Enter size to store elements 
+5 
+12 33 44 55 44 
+ouput 
+44 
