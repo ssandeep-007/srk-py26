@@ -12,4 +12,12 @@ Input: Hello World
 Output: olleH dlroW 
 
 -----------------------------
-
+#CODE
+def reverseWords(s):
+    words=s.split()
+    for i in range(len(words)):
+        words[i]=words[i][::-1]
+    return " ".join(words)
+s=input("enter string with spaces: ")
+res=reverseWords(s)
+print(res)
