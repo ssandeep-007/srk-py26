@@ -1,0 +1,12 @@
+Reverse each word of the given string
+---------------------------------------------
+
+Write a program to implement a logic to reverse each word of the given string.  
+The string is composed of words separated by a space.  
+
+Example: 
+Input: Apple Fruit 
+Output: elppA tiurF 
+
+Input: Hello World 
+Output: olleH dlroW 
