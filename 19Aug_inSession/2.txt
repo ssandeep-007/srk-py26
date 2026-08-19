@@ -1,0 +1,7 @@
+Calculate length of list using Nested function
+---------------------------------------------------------
+
+WAP to read elements from user to store into a list.  
+1. The list should be passed to a function.  
+2. The function has to use a nested member function to find the length of the list.  
+3. The outer function should return the length of the list to the calling function  
