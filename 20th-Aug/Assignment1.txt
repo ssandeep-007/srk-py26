@@ -1,4 +1,4 @@
-5. Shopping Cart System
+Shopping Cart System
 -------------------------------------
 
 Create a shopping cart program using functions.
