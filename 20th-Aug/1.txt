@@ -5,3 +5,40 @@ After completion of marks entry, it shows marks and should allow the user to per
 2. Find min
 3. Find avg
 4. Exit
+
+
+#code
+def average(arr):
+    total=0
+    for x in arr:
+        total+=x
+    print('average is: ',total//len(arr))
+def maximum(arr):
+    maxx=arr[0]
+    for x in arr:
+        if x>maxx:
+            maxx=x
+    print('max is: ',maxx)
+def minimum(arr):
+    minn = arr[0]
+    for x in arr:
+        if x < minn:
+            minn = x
+    print('minimum is: ', minn)
+l1=list(map(int,input().split()))
+while True:
+    print("1. Average")
+    print('2. Max')
+    print('3. Min')
+    print('4. Exit')
+    choice=int(input('enter choice: '))
+    if choice==1:
+        average(l1)
+    elif choice==2:
+        maximum(l1)
+    elif choice==3:
+        minimum(l1)
+    elif choice==4:
+        break
+    else:
+        print('enter valid choice...')
