@@ -1,0 +1,11 @@
+Movie Ticket Booking System
+-------------------------------------------------
+
+Create a movie ticket booking system using functions.
+
+The program should allow the user to:
+
+View available seats------------>availableSeats()
+Book tickets-------------------->bookTicket()
+Cancel tickets------------------>cancelTicket()
+Display total booked tickets---->totalBookedSeats()
