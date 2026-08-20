@@ -1,0 +1,7 @@
+You are assigned to a task for creating an application to allow the user to choose the following options to perform on the marks data entered by the user. 
+The application has to prompt the user to enter marks for subjects as follows. After entering the desired no of subjects, it should allow the user to enter marks one after one.  
+After completion of marks entry, it shows marks and should allow the user to perform operations on marks data. 
+1. Find max
+2. Find min
+3. Find avg
+4. Exit
