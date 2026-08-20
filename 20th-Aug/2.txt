@@ -1,0 +1,32 @@
+4. Simple Bank Account System
+--------------------------------------
+
+WAP to implement a Simple Bank Account System using functions.
+
+Create the following functions:
+
+deposit() – Add money to the account.
+withdraw() – Withdraw money from the account only if sufficient balance is available.
+check_balance() – Display the current account balance.
+
+The program should display a menu repeatedly:
+
+1. Deposit
+2. Withdraw
+3. Check Balance
+4. Exit
+
+The user should select an option and perform the corresponding operation.
+----------------------------------------------------------------------------------
+Example:
+
+Enter your choice: 1
+Enter deposit amount: 5000
+Amount deposited successfully.
+
+Enter your choice: 2
+Enter withdrawal amount: 2000
+Withdrawal successful.
+
+Enter your choice: 3
+Current Balance: 3000
