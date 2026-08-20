@@ -1,0 +1,13 @@
+5. Shopping Cart System
+-------------------------------------
+
+Create a shopping cart program using functions.
+
+The program should allow the user to:
+
+1. Add an item------------->addItem()
+2. Remove an item---------->removeItem()
+3. View the cart----------->viewCart()
+4. Calculate the total bill->calculateBill()
+	calculate total amount of products in the cart.
+5. Exit
