@@ -1,0 +1,52 @@
+Problem Statement: Person, Student and Employee
+Create a Python program to demonstrate inheritance, method overriding, and child-specific attributes.
+Create a parent class named Person with the following attributes and methods:
+Parent Class: Person
+Attributes:
+•	name
+•	age
+Methods:
+•	accept_details() – Accept the person’s name and age.
+•	display_details() – Display the person’s name and age.
+Create two child classes that inherit from Person.
+Child Class 1: Student
+Add the following child-specific attributes:
+•	roll_no
+•	course
+•	marks
+Implement the following methods:
+•	accept_details() – Accept student-specific details along with the inherited person details.
+•	calculate_grade() – Calculate the student’s grade based on the average marks.
+•	display_details() – Override the parent method and display complete student details, including the calculated grade.
+Child Class 2: Employee
+Add the following child-specific attributes:
+•	employee_id
+•	designation
+•	salary
+Implement the following methods:
+•	accept_details() – Accept employee-specific details along with the inherited person details.
+•	calculate_annual_salary() – Calculate the employee’s annual salary.
+•	display_details() – Override the parent method and display complete employee details, including the annual salary.
+Requirements
+1.	Create objects of both Student and Employee.
+2.	Use the inherited name and age attributes.
+3.	Add child-specific attributes in the respective child classes.
+4.	Override accept_details() and display_details() in both child classes.
+5.	Demonstrate that the same method name can perform different operations for Student and Employee.
+6.	Use appropriate constructors and super() wherever required.
+Sample Output
+--- Student Details ---
+Name       : Rahul
+Age        : 20
+Roll No    : 101
+Course     : Python
+Marks      : 85, 78, 92
+Grade      : A
+
+--- Employee Details ---
+Name       : Priya
+Age        : 28
+Employee ID: E101
+Designation: Software Developer
+Salary     : 50000
+Annual Pay : 600000
