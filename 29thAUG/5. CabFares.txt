@@ -1,0 +1,32 @@
+Online Cab Booking System
+-----------------------------------
+1. Problem Statement
+  Design an Online Cab Booking System using OOP. The fare depends on the cab type and the distance travelled.
+2. Rules
+  •	Mini Cab: ₹50 base fare + ₹12 per kilometre.
+  •	Sedan Cab: ₹80 base fare + ₹16 per kilometre + ₹50 AC charge.
+  •	SUV Cab: ₹120 base fare + ₹20 per kilometre + ₹100 AC charge.
+3. Requirements
+  1.	Create a parent class Cab with driver name and distance.
+  2.	Create MiniCab, SedanCab, and SUVCab child classes.
+  3.	Override calculate_fare() in every child class.
+  4.	Implement display_bill() and use super() to reuse the parent method.
+  5.	Create objects, store them in a list, and process them with a common loop.
+  6.	Do not use if-elif in the main program to identify the cab type.
+
+4. Sample Output
+  --- Mini Cab ---
+  Driver   : Ravi
+  Distance : 10 km
+  Fare     : 170
+  
+  --- Sedan Cab ---
+  Driver   : Arun
+  Distance : 15 km
+  Fare     : 370
+  
+  --- SUV Cab ---
+  Driver   : Kiran
+  Distance : 20 km
+  Fare     : 620
+
