@@ -1,0 +1,42 @@
+1. Problem Statement
+A parking facility charges different parking fees depending on the type of vehicle and the duration for which the vehicle is parked. Design and implement a Python program using Object-Oriented Programming concepts to calculate the parking charge for different types of vehicles.
+Parking Charges
+Vehicle Type	First 2 Hours	After 2 Hours
+Bike	₹20 per hour	₹10 per additional hour
+Car	₹40 per hour	₹20 per additional hour
+Bus	₹60 per hour	₹30 per additional hour
+2. Requirements
+  1.	Create a parent class named Vehicle.
+  2.	Store common information such as vehicle number and owner name in Vehicle.
+  3.	Create three child classes: Bike, Car, and Bus.
+  4.	Each child class must have its own parking-rate calculation.
+  5.	Define calculate_charge(hours) and override it in each child class.
+  6.	Create display_bill(hours) to display vehicle details, parking duration, and total charge.
+  7.	Use constructors and super() appropriately.
+  8.	Create objects of different vehicle types and calculate their charges.
+  9.	Do not use if-elif statements in the main program to identify the vehicle type.
+3. Example Calculation
+  If a car is parked for 5 hours:
+    •	First 2 hours = 2 × ₹40 = ₹80
+    •	Remaining 3 hours = 3 × ₹20 = ₹60
+    •	Total parking charge = ₹140
+  Similarly, a bike parked for 5 hours costs ₹70, while a bus parked for 5 hours costs ₹210.
+
+Expected Output
+--- Bike Parking Bill ---
+Vehicle Number : AP01AB1234
+Owner Name     : Rahul
+Parking Hours  : 5
+Parking Charge : 70
+
+--- Car Parking Bill ---
+Vehicle Number : AP01CD5678
+Owner Name     : Priya
+Parking Hours  : 5
+Parking Charge : 140
+
+--- Bus Parking Bill ---
+Vehicle Number : AP01EF9012
+Owner Name     : Kiran
+Parking Hours  : 5
+Parking Charge : 210
