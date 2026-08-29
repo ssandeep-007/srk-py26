@@ -1,0 +1,37 @@
+Food Delivery System
+----------------------------------------
+1. Problem Statement:
+  Design a Food Delivery System using OOP. Different food items have different pricing rules. Calculate the final price according to the item type and its child-specific properties.
+2. Rules
+  •	Pizza: add ₹50 delivery charge.
+  •	Burger: add ₹30 delivery charge; if it is a combo, add ₹80.
+  •	Beverage: add ₹20 delivery charge.
+  •	Pizza has size, Burger has is_combo, and Beverage has volume.
+3. Requirements
+  1.	Create a parent class FoodItem with item name, price, and quantity.
+  2.	Create Pizza, Burger, and Beverage child classes.
+  3.	Override calculate_price() in every child class.
+  4.	Implement display_details() and use super() to reuse the parent's display functionality.
+  5.	Create objects, store them in a list, and process them with a common loop.
+
+4. Sample Output
+  --- Pizza ---
+  Item     : Farmhouse Pizza
+  Price    : 250
+  Quantity : 2
+  Total    : 550
+  Size     : Large
+  
+  --- Burger ---
+  Item     : Chicken Burger
+  Price    : 180
+  Quantity : 1
+  Total    : 290
+  Combo    : True
+  
+  --- Beverage ---
+  Item     : Cold Coffee
+  Price    : 100
+  Quantity : 2
+  Total    : 220
+  Volume   : 500 ml
