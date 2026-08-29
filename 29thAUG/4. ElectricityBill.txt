@@ -1,0 +1,30 @@
+Electricity Bill Calculator
+--------------------------------------------
+1. Problem Statement
+  Design an Electricity Billing System using OOP. Different consumer categories use different slab rates. Calculate the total bill from consumer type and units consumed.
+2. Rules
+  •	Domestic: first 100 units ₹2/unit; next 200 ₹3/unit; above 300 ₹5/unit; fixed charge ₹50.
+  •	Commercial: first 100 units ₹5/unit; next 200 ₹7/unit; above 300 ₹10/unit; fixed charge ₹200.
+  •	Industrial: first 100 units ₹8/unit; next 200 ₹10/unit; above 300 ₹15/unit; fixed charge ₹500.
+3. Requirements
+  1.	Create a parent class Consumer with consumer name and units consumed.
+  2.	Create DomesticConsumer, CommercialConsumer, and IndustrialConsumer classes.
+  3.	Override calculate_bill() in every child class.
+  4.	Implement slab-based billing.
+  5.	Implement display_bill() and use super() to reuse the parent's display functionality.
+  6.	Store objects in a list and process them with one common loop.
+4. Sample Output
+  --- Domestic Consumer ---
+  Consumer Name : Rahul
+  Units         : 250
+  Total Bill    : 500
+  
+  --- Commercial Consumer ---
+  Consumer Name : ABC Store
+  Units         : 350
+  Total Bill    : 2850
+  
+  --- Industrial Consumer ---
+  Consumer Name : XYZ Factory
+  Units         : 500
+  Total Bill    : 5700
